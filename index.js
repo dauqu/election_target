@@ -11,7 +11,7 @@ app.use(express.json());
 // hello world
 app.get("/", (req, res) => {
   //   send simple json data
-  res.send({ message: "Hello World!" });
+  res.send({ message: "Election Target API" });
 });
 
 // create login routs
